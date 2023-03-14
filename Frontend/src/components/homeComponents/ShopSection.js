@@ -8,7 +8,7 @@ import Message from "../LoadingError/Error";
 import Loading from "../LoadingError/Loading";
 import Pagination from "./pagination";
 import Rating from "./Rating";
-//import "./ShopSection.css";
+import "./ShopSection.css";
 
 const ShopSection = () => {
   const dispatch = useDispatch();
