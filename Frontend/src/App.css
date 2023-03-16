@@ -135,6 +135,97 @@ textarea:focus {
 .mobile-header {
   display: none;
 }
+/* CALL */
+.subscribe-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226)),
+    url("https://watchlocker.ng/wp-content/uploads/2020/05/casio-banner.jpg") no-repeat scroll center / cover;
+  padding: 100px 0 100px;
+}
+
+.subscribe-head h2 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin: 0 0 13px;
+  text-transform: uppercase;
+}
+
+.subscribe-head p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 39px;
+}
+
+.subscribe-head {
+  text-align: center;
+}
+
+.form-section input[type="email"] {
+  border: 0 none;
+  border-radius: 25px;
+  color: #9b9b9b;
+  font-size: 16px;
+  font-style: normal;
+  height: 51px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 460px;
+}
+
+.form-section input[type="submit"] {
+  background: #029ed0;
+  border: 0 none;
+  border-radius: 25px;
+  color: #fff;
+  height: 52px;
+  letter-spacing: 0;
+  margin-left: -60px;
+  padding: 0 58px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* CONTACT */
+.contactInfo {
+  padding: 70px 0;
+}
+
+.contact-Box,
+.box-info,
+.info-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-info {
+  width: 80%;
+  flex-direction: column;
+  padding: 40px 0;
+  box-shadow: 0px 0px 27px 0px rgb(243, 243, 243);
+}
+
+.info-image {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #029ed0;
+  border-radius: 100px;
+  font-size: 20px;
+  color: #029ed0;
+}
+
+.box-info h5 {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.box-info p {
+  font-size: 16px;
+}
 
 /* FOOTER */
 .footer {
@@ -166,4 +257,57 @@ textarea:focus {
 .page-link:focus {
   outline: none !important;
   box-shadow: none;
+}
+/* LOGIN */
+.login-center {
+  padding: 50px 0;
+}
+
+.Login,
+.Login2 {
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  padding: 35px 30px 30px;
+  box-shadow: 0 1px 11px rgba(168, 168, 168, 0.27);
+  text-align: center;
+}
+
+.Login input {
+  width: 100%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  color: #8a8a8a;
+}
+
+.Login input:focus {
+  outline: 0px;
+}
+
+.Login button,
+.Login2 button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 0;
+  border: 0;
+  background-color: #029ed0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.Login button a,
+.Login2 button a {
+  text-transform: uppercase;
+  color: white;
+}
+
+.Login p {
+  margin-top: 30px;
+}
+
+.Login p a {
+  color: #7a7a7a;
 }
