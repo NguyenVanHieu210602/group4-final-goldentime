@@ -7,13 +7,17 @@ import PrivateRouter from "./PrivateRouter";
 import { listOrders } from "./redux/Actions/OrderActions";
 import { lisProducts } from "./redux/Actions/ProductActions";
 import "./responsive.css";
-import HomeScreen from "./screens/HomeScreen";
-import ProductScreen from "./screens/productScreen.js";
-import Login from "./screens/LoginScreen";
-import UsersScreen from "./screens/UsersScreen";
 import AddProduct from "./screens/AddProduct";
+import CategoryEditScreen from "./screens/CategoriesEditScreen";
+import CategoriesScreen from "./screens/CategoriesScreen";
+import HomeScreen from "./screens/HomeScreen";
+import Login from "./screens/LoginScreen";
 import NotFound from "./screens/NotFound";
+import OrderDetailScreen from "./screens/OrderDetailScreen";
+import OrderScreen from "./screens/OrderScreen";
 import ProductEditScreen from "./screens/ProductEditScreen";
+import ProductScreen from "./screens/productScreen";
+import UsersScreen from "./screens/UsersScreen";
 
 function App() {
   const dispatch = useDispatch();
@@ -35,21 +39,17 @@ function App() {
           <PrivateRouter path="/" component={HomeScreen} exact />
           <PrivateRouter path="/products" component={ProductScreen} />
           <PrivateRouter path="/category" component={CategoriesScreen} />
-          <PrivateRouter path="/product/:id/edit" />
-<<<<<<< HEAD
           <PrivateRouter path="/orders" component={OrderScreen} />
           <PrivateRouter path="/order/:id" component={OrderDetailScreen} />
-          <PrivateRouter path="/users" component={UsersScreen} />
-          <PrivateRouter
-            path="/categories/:id"
-            component={CategoryEditScreen}
-=======
           <PrivateRouter path="/addproduct" component={AddProduct} />
           <PrivateRouter path="/users" component={UsersScreen} />
           <PrivateRouter
             path="/product/:id/edit"
             component={ProductEditScreen}
->>>>>>> b6646fd8d414faa8f1d57d001f7bfce690d21bc6
+          />
+          <PrivateRouter
+            path="/categories/:id"
+            component={CategoryEditScreen}
           />
           <Route path="/login" component={Login} />
           <PrivateRouter path="*" component={NotFound} />
