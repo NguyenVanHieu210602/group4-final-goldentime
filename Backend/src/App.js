@@ -33,6 +33,10 @@ function App() {
           <PrivateRouter path="/products" component={ProductScreen} />
           <PrivateRouter path="/product/:id/edit" />
           <PrivateRouter path="/users" component={UsersScreen} />
+          <PrivateRouter
+            path="/categories/:id"
+            component={CategoryEditScreen}
+          />
           <Route path="/login" component={Login} />
         </Switch>
       </Router>
