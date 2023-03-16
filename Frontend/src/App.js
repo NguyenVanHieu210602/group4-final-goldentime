@@ -6,6 +6,7 @@ import "./responsive.css";
 import HomeScreen from "./screens/HomeScreen";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
+import CartScreen from "./screens/CartScreen";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" component={HomeScreen} exact />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/cart/:id?" component={CartScreen} />
       </Switch>
     </Router>
   );
