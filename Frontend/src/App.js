@@ -13,6 +13,7 @@ import OrderScreen from "./screens/OrderScreen";
 import SingleProduct from "./screens/SingleProduct";
 import PaymentScreen from "./screens/PaymentScreen"
 import PlaceOrderScreen from "./screens/PlaceOderScreen"
+import ShippingScreen from "./screens/ShippingScreen";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/products/:id" component={SingleProduct} />
         <PrivateRouter path="/profile" component={ProfileScreen} />
         <Route path="/cart/:id?" component={CartScreen} />
+        <PrivateRouter path="/shipping" component={ShippingScreen} />
         <PrivateRouter path="/payment" component={PaymentScreen} />
         <PrivateRouter path="/placeorder" component={PlaceOrderScreen} />
         <PrivateRouter path="/order/:id" component={OrderScreen} />
