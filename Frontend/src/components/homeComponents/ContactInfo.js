@@ -3,7 +3,7 @@ import "./contact.css";
 const ContactInfo = () => {
   return (
     <>
-      <div className="container pt-4  ">
+      <div className="container pt-4  " id="WatchNews">
         <h2 class="section-title px-5"><span class="px-2">WATCH NEWS</span></h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
