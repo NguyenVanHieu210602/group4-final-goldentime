@@ -29,9 +29,9 @@ const Header = () => {
             <div className="col-md-6 d-flex align-items-center display-none">
               <p className="d-flex">
                 <i class="fa-solid fa-phone pe-2 pt-1"></i>
-                : +84 788 030 999
+                +84 788 030 999
                 <i class="fa-solid fa-envelope pe-2 pt-1 ps-5" ></i>
-                : goldentime@gmail.com
+                goldentime@gmail.com
               </p>
             </div>
             <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
@@ -76,17 +76,16 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Watchnews">Watch News</a>
+                <a class="nav-link" href="#WatchNews">Watch News</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contacts
+                  Contact
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#Contact">Contact Queries</a></li>
-                  <li><a class="dropdown-item" href="#Emaillatestsale">RECEIVE SALE INFORMATION</a></li>
+                  <li><a class="dropdown-item" href="#Emaillatestsale">Receive Sale Information</a></li>
                   <li><hr class="dropdown-divider text-light" /></li>
-                  <li><a class="dropdown-item" href="#">137 Nguyễn Thị Thập,..., Đà Nẵng <small className="text-primary">(map)</small></a></li>
                 </ul>
               </li>
             </ul>
