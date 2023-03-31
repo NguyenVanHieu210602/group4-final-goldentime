@@ -14,7 +14,7 @@ import SingleProduct from "./screens/SingleProduct";
 import PaymentScreen from "./screens/PaymentScreen"
 import PlaceOrderScreen from "./screens/PlaceOderScreen"
 import ShippingScreen from "./screens/ShippingScreen";
-
+import NotFound from "./screens/NotFound";
 
 const App = () => {
   return (
@@ -30,6 +30,7 @@ const App = () => {
         <PrivateRouter path="/payment" component={PaymentScreen} />
         <PrivateRouter path="/placeorder" component={PlaceOrderScreen} />
         <PrivateRouter path="/order/:id" component={OrderScreen} />
+        <Route path="*" component={NotFound} />
       </Switch>
     </Router>
   );
