@@ -48,7 +48,7 @@ const ContactInfo = () => {
         </div>
       </div>
 
-      <div class="container-fluid pt-5 text-contact">
+      <div class="container-fluid pt-5 text-contact" id="Contact"> 
         <div class="text-center mb-4">
           <h2 class="section-title px-5"><span class="px-2">Contact Queries</span></h2>
         </div>
