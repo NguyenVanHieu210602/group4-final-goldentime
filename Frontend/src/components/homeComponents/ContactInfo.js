@@ -108,12 +108,12 @@ const ContactInfo = () => {
             <div class="card mb-3" >
               <div class="row g-0">
                 <div class="col-md-4">
-                  <iframe loading="lazy" title="Top 10 Most Expensive Watches in the World 2022" width="1170" height="658" src="https://www.youtube.com/watch?v=rHWZXRctYEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" class="img-fluid rounded-start lazyloaded" data-ll-status="loaded"></iframe>
+                  <iframe loading="lazy" title="Đồng Hồ Orient" width="1170" height="658" src="https://www.youtube.com/embed/videoseries?list=PLYNNji2ShyuAgr92B8LPsrNBv3G6zniqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" class="img-fluid rounded-start lazyloaded" data-ll-status="loaded"></iframe>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">VIDEO INSTRUCTIONS FOR USE</h5>
-                    <p class="card-text">We are proud to present the official 2022 most expensive watches in the world list, verified by Alux. If you were a billionaire, would you buy one of the most expensive watches in the world?</p>
+                    <p class="card-text">Đồng hồ Bambino là 1 dòng sản phẩm nổi tiếng của Orient Nhật Bản kiểu dáng Hoài cổ khi được trang bị kính cong tạo nên hiệu ứng thị giác đẹp mắt.Mời bạn tham khảo 5 sản phẩm đồng hồ kính cong Bambino </p>
                   </div>
                 </div>
               </div>
