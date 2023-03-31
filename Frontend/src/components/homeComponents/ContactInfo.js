@@ -3,14 +3,14 @@ import "./contact.css";
 const ContactInfo = () => {
   return (
     <>
-      <div className="container pt-4  ">
+      <div className="container pt-4  " id="WatchNews">
         <h2 class="section-title px-5"><span class="px-2">WATCH NEWS</span></h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
               <img src="images/WATCHNEWS1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Đồng hồ nam mặt chữ nhật Orient giá bao nhiêu, mua ở đâu?</h5>
+                <h5 class="card-title">How much is Orient rectangular men's watch, where to buy?</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
               <div class="card-footer d-flex justify-content-between ">
@@ -23,12 +23,12 @@ const ContactInfo = () => {
             <div class="card h-100">
               <img src="images/WATCHNEWS2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">7 Cách Kiểm Tra Đồng Hồ Orient Chính Hãng Đơn Giản Nhất</h5>
+                <h5 class="card-title">7 Simplest Ways To Check Genuine Orient Watches</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer d-flex justify-content-between ">
                 <small class="text-muted">Last updated 5 day ago</small>
-                <a className="card-link  text-primary " href="#">Đọc tiếp</a>
+                <a className="card-link  text-primary " href="#">Continue reading</a>
               </div>
             </div>
           </div>
@@ -36,19 +36,19 @@ const ContactInfo = () => {
             <div class="card h-100">
               <img src="images/WATCHNEWS3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Cách lên dây cót đồng hồ cơ Orient đúng và đủ cho người mới</h5>
+                <h5 class="card-title">How to wind the Orient mechanical watch properly and enough for newbies</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="card-footer d-flex justify-content-between ">
                 <small class="text-muted">Last updated 5 day ago</small>
-                <a className="card-link  text-primary " href="#">Đọc tiếp</a>
+                <a className="card-link  text-primary " href="#">Continue reading</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid pt-5 text-contact">
+      <div class="container-fluid pt-5 text-contact" id="Contact"> 
         <div class="text-center mb-4">
           <h2 class="section-title px-5"><span class="px-2">Contact Queries</span></h2>
         </div>
@@ -113,7 +113,7 @@ const ContactInfo = () => {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">VIDEO INSTRUCTIONS FOR USE</h5>
-                    <p class="card-text">Đồng hồ Bambino là 1 dòng sản phẩm nổi tiếng của Orient Nhật Bản kiểu dáng Hoài cổ khi được trang bị kính cong tạo nên hiệu ứng thị giác đẹp mắt.Mời bạn tham khảo 5 sản phẩm đồng hồ kính cong Bambino </p>
+                    <p class="card-text">Bambino watch is a famous product line of Orient Japan with nostalgic design when equipped with curved glass to create beautiful visual effects. Please refer to 5 Bambino curved glass watch products. </p>
                   </div>
                 </div>
               </div>
@@ -138,6 +138,7 @@ const ContactInfo = () => {
       </div>
     </>
   );
+
 };
 {/*
 <iframe loading="lazy" title="Đồng Hồ Orient" width="1170" height="658" src="https://www.youtube.com/embed/videoseries?list=PLYNNji2ShyuAgr92B8LPsrNBv3G6zniqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" class="lazyloaded" data-ll-status="loaded"></iframe>
