@@ -145,24 +145,21 @@ const Header = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/slide3.jpg" class="d-block w-100" alt="..." />
+            <img src="/images/slide1.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Lorem</h5>
-              <p>A crown for every achievement.</p>
+          
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/images/slide1.jpg" class="d-block w-100" alt="..." />
+            <img src="/images/slide2.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Sunrise</h5>
-              <p>Represents perfection and great achievement for the future..</p>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/images/slide2.jpg" class="d-block w-100" alt="..." />
+            <img src="/images/slide3.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Benken</h5>
-              <p>Represents creativity, non-stop efforts.</p>
+              
             </div>
           </div>
         </div>
