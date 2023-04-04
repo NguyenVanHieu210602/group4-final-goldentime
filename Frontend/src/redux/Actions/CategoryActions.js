@@ -9,7 +9,9 @@ import axios from "axios";
 export const lisCategories = () => async (dispatch) => {
   try {
     dispatch({ type: CATEGORY_LIST_REQUEST });
-    const { data } = await axios.get(`/api/categories`);
+    const { data } = await axios.get(
+      `https://group4-server-goldentime.onrender.com/api/categories`
+    );
     dispatch({ type: CATEGORY_LIST_SUCCESS, payload: data });
   } catch (error) {
     dispatch({
