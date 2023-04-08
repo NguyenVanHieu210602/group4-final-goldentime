@@ -180,7 +180,19 @@ const ContactInfo = () => {
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
-                  {/* <iframe loading="lazy" title="Top 10 Most Expensive Watches in the World 2022" width="1170" height="658" src="https://www.youtube.com/embed/rHWZXRctYEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" class="img-fluid rounded-start lazyloaded" data-ll-status="loaded"></iframe> */}
+                  <iframe
+                    loading="lazy"
+                    title="Top 10 Most Expensive Watches in the World 2022"
+                    width="1170"
+                    height="658"
+                    src="https://www.youtube.com/embed/rHWZXRctYEY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                    data-rocket-lazyload="fitvidscompatible"
+                    class="img-fluid rounded-start lazyloaded"
+                    data-ll-status="loaded"
+                  ></iframe>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -200,7 +212,16 @@ const ContactInfo = () => {
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
-                  {/* <iframe className="img-fluid rounded-start" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.905858788116!2d108.21347841468402!3d16.070374288880224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142183674fc0b27%3A0xe637b39e717fb0f3!2zMTIzIMSQLiBMw6ogRHXhuqluLCBI4bqjaSBDaMOidSAyLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1680259102133!5m2!1svi!2s" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                  <iframe
+                    className="img-fluid rounded-start"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.905858788116!2d108.21347841468402!3d16.070374288880224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142183674fc0b27%3A0xe637b39e717fb0f3!2zMTIzIMSQLiBMw6ogRHXhuqluLCBI4bqjaSBDaMOidSAyLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1680259102133!5m2!1svi!2s"
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
