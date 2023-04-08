@@ -117,12 +117,7 @@ const Header = () => {
                   <li>
                     <hr class="dropdown-divider text-light" />
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      137 Nguyễn Thị Thập,..., Đà Nẵng{" "}
-                      <small className="text-primary">(map)</small>
-                    </a>
-                  </li>
+                  {/*<li><a class="dropdown-item" href="#">137 Nguyễn Thị Thập,..., Đà Nẵng <small className="text-primary">(map)</small></a></li>*/}
                 </ul>
               </li>
             </ul>
