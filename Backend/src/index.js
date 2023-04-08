@@ -5,7 +5,8 @@ import { Provider } from "react-redux";
 import axios from "axios";
 import store from "./redux/store";
 
-const API_URL = process.env.API_URL || "localhost:5000";
+const API_URL =
+  process.env.API_URL || "https://group4-server-goldentime.onrender.com";
 axios.defaults.baseURL = API_URL;
 
 ReactDOM.render(
