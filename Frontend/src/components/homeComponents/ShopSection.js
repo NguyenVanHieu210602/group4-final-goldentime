@@ -38,7 +38,7 @@ const ShopSection = () => {
   }, [dispatch]);
 
   // Search product
-  const searchProducts = products?.filter((product) => {
+  const searchProducts = (products ? products : []).filter((product) => {
     if (searchProduct === "") {
       return product;
     } else if (
@@ -131,11 +131,12 @@ const ShopSection = () => {
                           onChange={handleCategoryChange}
                         >
                           <option value="">Select a category</option>
-                          {categories.map((category) => (
-                            <option value={category._id} key={category._id}>
-                              {category.name}
-                            </option>
-                          ))}
+                          {categories &&
+                            categories.map((category) => (
+                              <option value={category._id} key={category._id}>
+                                {category.name}
+                              </option>
+                            ))}
                         </select>
                       )}
                     </div>
