@@ -5,15 +5,13 @@ import { PayPalButton } from "react-paypal-button-v2";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getOrderDetails, payOrder } from "../redux/Actions/OrderActions";
-import {
-  ORDER_PAY_RESET
-} from "../redux/Constants/OrderConstants";
+import { ORDER_PAY_RESET } from "../redux/Constants/OrderConstants";
 import Header from "./../components/Header";
 import Message from "./../components/LoadingError/Error";
 import Loading from "./../components/LoadingError/Loading";
 
 const OrderScreen = ({ match }) => {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
   const [sdkReady, setSdkReady] = useState(false);
 
   const orderId = match.params.id;
