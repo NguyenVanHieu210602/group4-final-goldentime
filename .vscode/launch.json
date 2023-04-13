@@ -16,7 +16,7 @@
                 "PORT": "5000",
                 "NODE_ENV": "development",
                 "JWT_SECRET": "goldentime",
-                "PAYPAL_CLIENT_ID": "AfVNyE2yfeSDrTWyHrp6Jobmo_IR-a4qZR30S51YMOPNU9nwe_N7BrbQLHL38MtY9PcR9OnI_f9trjTO",
+                "PAYPAL_CLIENT_ID": "AWe6mT_fcw-IlpEYtP0_sSU5yNKnAw1UesPVDgzjELGgZySsjQMztXGqP8KjZ3TzoZ4H-lheKIV4sr5P",
                 "CLOUD_NAME": "dig0qmy5a",
                 "CLOUD_API_KEY": "219262969921963",
                 "CLOUD_API_SECRET": "Bs2Ratbj5rjvhu1pSuX0XLgGnKw",
