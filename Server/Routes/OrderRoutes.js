@@ -172,7 +172,7 @@ orderRouter.put(
     })
 );
 
-// Order is paid
+// Order is paid delivered
 orderRouter.put(
     "/:id/delivered",
     protect,

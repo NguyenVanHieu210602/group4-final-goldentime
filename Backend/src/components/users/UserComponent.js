@@ -11,13 +11,13 @@ const UserComponent = () => {
   const dispatch = useDispatch();
   const userList = useSelector((state) => state.userList);
   const { loading, error, users } = userList;
-  // const [searchUser, setSearchProduct] = useState("");
+  // const [searchUser, setSearchUser] = useState("");
 
   useEffect(() => {
     dispatch(listUser());
   }, [dispatch]);
 
-  // // Search product
+  // // Search user
   // const searchUsers = users?.filter((user) => {
   //   if (searchUser === "") {
   //     return user;
