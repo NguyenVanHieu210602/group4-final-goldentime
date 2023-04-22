@@ -41,26 +41,24 @@ const OrderDetailmain = (props) => {
     } else {
       dispatch(deliveredOrder(order));
       toast.success("DELIVERED.", ToastObjects);
-
     }
   };
 
   const state = {
-    value_stt: false
-  }
+    value_stt: false,
+  };
 
-  const handleChangePaid = (event) => {
-    state.value_stt = Boolean(event.target.value);
-    event.preventDefault();
-  }
-
+  // const handleChangePaid = (event) => {
+  //   state.value_stt = Boolean(event.target.value);
+  //   event.preventDefault();
+  // };
 
   const handleSubmitPaid = (event) => {
     //alert('Your favorite flavor is: ' + this.state.value_stt);
     console.log(state.value_stt);
     event.preventDefault();
     //this.setState({ value_status: this.target.value })
-  }
+  };
   return (
     <>
       <Toast />
@@ -92,8 +90,12 @@ const OrderDetailmain = (props) => {
                   </small>
                 </div>
                 <div className="col-lg-6 col-md-6 ms-auto d-flex justify-content-end align-items-center">
-                  <form onSubmit={handleSubmitPaid} className="d-flex" onsubmit="return false">
-                    <select onChange={handleChangePaid}
+                  <form
+                    onSubmit={handleSubmitPaid}
+                    className="d-flex"
+                    onsubmit="return false"
+                  >
+                    {/* <select onChange={handleChangePaid}
                       className="form-select"
                       style={{ maxWidth: "200px" }}
 
@@ -103,7 +105,7 @@ const OrderDetailmain = (props) => {
                     </select>
                     <button type="submit" value="submit" className="btn btn-success ms-2" >
                       <i className="fas fa-archive"></i>
-                    </button>
+                    </button> */}
                   </form>
                 </div>
               </div>

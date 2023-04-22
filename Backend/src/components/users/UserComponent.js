@@ -1,3 +1,4 @@
+// import React, { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,10 +11,22 @@ const UserComponent = () => {
   const dispatch = useDispatch();
   const userList = useSelector((state) => state.userList);
   const { loading, error, users } = userList;
+  // const [searchUser, setSearchProduct] = useState("");
 
   useEffect(() => {
     dispatch(listUser());
   }, [dispatch]);
+
+  // // Search product
+  // const searchUsers = users?.filter((user) => {
+  //   if (searchUser === "") {
+  //     return user;
+  //   } else if (
+  //     user.name.toLowerCase().includes(searchUser.toLowerCase())
+  //   ) {
+  //     return user;
+  //   }
+  // });
 
   return (
     <section className="content-main">
