@@ -6,18 +6,20 @@ import {
 import axios from "axios";
 
 // Category list
-export const lisCategories = () => async (dispatch, getState) => {
+export const lisCategories = () => async (dispatch) => {
+  // export const lisCategories = () => async (dispatch, getState) => {
   try {
-    const {
-      userLogin: { userInfo },
-    } = getState();
+    // const {
+    //   userLogin: { userInfo },
+    // } = getState();
 
-    const config = {
-      headers: { Authorization: `Bearer ${userInfo.token}` },
-    };
+    // const config = {
+    //   headers: { Authorization: `Bearer ${userInfo.token}` },
+    // };
 
     dispatch({ type: CATEGORY_LIST_REQUEST });
-    const { data } = await axios.get(`/api/categories`, config);
+    const { data } = await axios.get(`/api/categories`);
+    // const { data } = await axios.get(`/api/categories`, config);
     dispatch({ type: CATEGORY_LIST_SUCCESS, payload: data });
   } catch (error) {
     dispatch({
@@ -28,4 +30,5 @@ export const lisCategories = () => async (dispatch, getState) => {
           : error.message,
     });
   }
+  // }
 };

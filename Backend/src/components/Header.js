@@ -68,6 +68,8 @@ const Header = () => {
               />
             </Link>
             <div className="dropdown-menu dropdown-menu-end">
+              <Link className="dropdown-item" to="/"></Link>
+              <Link className="dropdown-item" to="#"></Link>
               <Link
                 onClick={logoutHandler}
                 className="dropdown-item text-danger"
