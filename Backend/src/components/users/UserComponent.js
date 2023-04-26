@@ -19,7 +19,7 @@ const UserComponent = () => {
   return (
     <section className="content-main">
       <div className="content-header">
-        <h2 className="content-title">Customers</h2>
+        <h2 className="content-title">Users</h2>
       </div>
 
       <div className="card mb-4">
